@@ -1,0 +1,9 @@
+/{
+	hx711 {
+		compatible = "avia,hx711";
+		status = "okay";
+		label = "HX711";
+		dout-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+		sck-gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;
+	};
+};
